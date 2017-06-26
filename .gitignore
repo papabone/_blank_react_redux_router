@@ -3,3 +3,6 @@
 /.sass-cache/*
 /PSD/*
 /node_modules/*
+/dist/*
+
+
