@@ -1,14 +1,14 @@
 import {
-  FOCUS_ON_LOAD
+  FOCUS
 } from '../constants/app'
 
-export function focus(input) {
+export function focus(subject) {
 
   return (dispatch) => {
 
     dispatch({
-      type: FOCUS_ON_LOAD,
-      payload: input
+      type: FOCUS,
+      payload: subject
     })
 
   }
